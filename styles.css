@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pirata+One&display=swap");
 :root {
   --primary-color: #1f2937;
   --text-color: white;
@@ -9,7 +9,7 @@
   box-sizing: border-box;
 }
 body {
-  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-family: "Pirata One", cursive;
   margin: 0;
   background-color: var(--backgroundColor);
 }
@@ -35,6 +35,8 @@ body {
   margin-top: 2rem;
   padding: 1rem;
   /* border-color: var(--text-color); */
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 #btn-translate {
   padding: 1rem 3rem;
@@ -45,6 +47,7 @@ body {
   border: 1px var(--gray-color) solid;
   margin: 1.5rem auto 0rem auto;
   display: block;
+  font-family: "Pirata One", cursive;
 }
 #btn-translate:hover {
   background-color: var(--gray-color);
@@ -52,7 +55,7 @@ body {
   border: 1px var(--primary-color) solid;
   color: var(--primary-color);
   font-size: 1.5rem;
-  padding: 0.9rem 1rem;
+  padding: 0.95rem 1rem;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
     rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
@@ -67,12 +70,14 @@ body {
   color: var(--primary-color);
   padding: 1rem;
   background-color: var(--gray-color);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 footer {
   width: 100%;
   display: block;
   background-color: var(--primary-color);
-  padding: 1rem;
+  padding: 0rem 1rem 1rem 1rem;
   text-align: center;
   bottom: 0;
   position: fixed;
