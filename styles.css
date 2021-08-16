@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@400;700&display=swap");
+:root {
+  --primary-color: #1f2937;
+  --text-color: white;
+  --backgroundColor: #6b7280;
+  --gray-color: #f9fafb;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  margin: 0;
+  background-color: var(--backgroundColor);
+}
+.navigation {
+  background-color: var(--primary-color);
+  text-align: center;
+  padding: 1rem;
+  font-size: 2rem;
+  color: var(--text-color);
+}
+.main-div {
+  margin: auto;
+  max-width: 600px;
+  padding: 1rem;
+  display: block;
+}
+#userInput {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  font-size: 1rem;
+  min-height: 20vh;
+  margin-top: 2rem;
+  padding: 1rem;
+  /* border-color: var(--text-color); */
+}
+#btn-translate {
+  padding: 1rem 3rem;
+  color: var(--text-color);
+  font-size: 1.5rem;
+  background-color: var(--primary-color);
+  border-radius: none;
+  border: 1px var(--gray-color) solid;
+  margin: 1.5rem auto 0rem auto;
+  display: block;
+}
+#btn-translate:hover {
+  background-color: var(--gray-color);
+  cursor: pointer;
+  border: 1px var(--primary-color) solid;
+  color: var(--primary-color);
+  font-size: 1.5rem;
+  padding: 0.9rem 1rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+#translatedOutput {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  min-height: 15vh;
+  border: 1px var(--text-color) solid;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  padding: 1rem;
+  background-color: var(--gray-color);
+}
+footer {
+  width: 100%;
+  display: block;
+  background-color: var(--primary-color);
+  padding: 1rem;
+  text-align: center;
+  bottom: 0;
+  position: fixed;
+}
+#footer-about {
+  text-align: center;
+  font-size: 2rem;
+  color: var(--text-color);
+  margin-top: 1rem;
+}
