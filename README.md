@@ -8,4 +8,4 @@
 
 3. **Can be used only 5 times in an hour due to api restrictions**.
 
-4. Hosted at
+4. Hosted at https://rakshith-talk-to-pirates.netlify.app/
