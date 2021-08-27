@@ -25,5 +25,7 @@ function clickHandler(event) {
     });
 }
 function urlHandler(text) {
-  return url + "?text=" + text;
+  var finalUrl = url + "?text=" + text;
+  var encodedURL = encodeURI(finalUrl);
+  return encodedURL;
 }
